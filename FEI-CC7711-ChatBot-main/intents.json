@@ -1,0 +1,117 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi","Salve", "tudo bem", "oii"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","fechou","vlw",
+     "fui","falou","Adeus","ate logo","vou embora","ate mais"],
+    "responses": ["Até breve","Falou","sentirei saudades"]
+  },
+  {
+    "tag":"propostas",
+    "patterns":["Até quando posso enviar uma proposta?","Limite pra enviar propostas", "limite para proposta",
+    "até quando voces recebem novas ideias","quando que param de receber ideias novas?",
+    "Qual o prazo pra enivar uma proposta nova?","proposta","recebendo nova proposta","limite para receber novas ideias"],
+    "responses":["Até o dia 30/10/2023","Dia 30 de Outubro de 2023"]
+  },
+  {
+    "tag":"chamada",
+    "patterns":["Quando abriu a chamada?","Desde quando ta aberto a chamada?","Desde quando a chamada ta aberta?","chamada aberta"],
+    "responses":["Dia 03/05/2023", "Está aberto desde o dia ","A chamada esta aberta desde 03/05/2023"]
+  },
+  {
+    "tag":"resultados",
+    "patterns":["Quando sei quem passou?","Que dia sai o resultado?","Vou sabe quando quem passou?",
+    "submeti meu projeto quando vous saber se ele passou ou não?"],
+    "responses":["Dia 04/12/2023 será divulgado quem passou","A divulgação acontece dia 04/12/2023"]
+  },
+  {
+    "tag":"condições de participação",
+    "patterns":["Qual a condição pra participar?","Oque tenho que fazer pra participar?","Qual os requisitos mínimos pra participar?",
+    "como sei que posso participar com minha empresa?","Como participar","Condições para participar","Participação"],
+    "responses":["1) Pequenas empresas com até 250 funcionários\n 2) Ter a unidade de Pesquisa e Desenvolvimento (P&D) com sede em SP(estado).\n3) Faturamento limitado à 4.8Mi.\n 4)Antes do lançamento da chamada ter registro na Junta Comercial há no mínimo 12 meses\n4) O pesquisador responsável deve demonstrar dominio sobre o tema à ser pesquisado"]
+  },
+  {
+    "tag":"objetivos",
+    "patterns":["Quais são os objetivos do pipe?","Para que serve o pipe?","O pipe serve para que?","Objetivos do pipe","Objetivos"],
+    "responses":["O Programa FAPESP Pesquisa Inovativa em Pequenas Empresas para Transferência de Conhecimento – PIPE-TC destina-se a apoiar a execução de pesquisa científica e tecnológica em pequenas empresas, realizada necessariamente em parceria com Instituição de ensino superior ou de pesquisa no estado de São Paulo.",
+     "O programa PIPE-TC FAPESP oferece apoio a pequenas empresas na criação de tecnologias inovadoras, voltadas ao mercado, em projetos de desenvolvimento da tecnologia em cooperação com a Instituição de ensino superior ou de pesquisa no estado de São Paulo (Instituição de Pesquisa Parceira) onde a tecnologia base do projeto tenha se originado.",
+    "Este programa permitirá o financiamento de provas de conceito de pesquisas originadas nestas Instituições de ensino superior ou de pesquisa que sejam de interesse de pequenas empresas, aproximando ainda mais a academia da indústria/mercado."]
+  },
+  {
+    "tag":"itens_financiaveis",
+    "patterns":["Quais itens sao financiaveis?","O que é financiavel?","O que pode ser financiado?"],
+    "responses":["Os itens financiáveis incluem:\na) Material permanete e de Consumo adquirido no país e importado\nb) Serviços de terceiros contratados no país e no exterior\nDespesas de Transporte e Diárias para atividades diretamente ligadas à realização da pesquisa proposta, incluindo pesquisa de campo e vinda de Pesquisadores Visitantes.\nBolsas como item orçamentário"]
+  },
+  {
+    "tag":"condições de participação",
+    "patterns":["Qual a condição pra participar?","Oque tenho que fazer pra participar?","Qual os requisitos mínimos pra participar?",
+    "como sei que posso participar com minha empresa?"],
+    "responses":["1) Pequenas empresas com até 250 funcionários\n2) Ter a unidade de Pesquisa e Desenvolvimento (P&D) com sede em SP(estado).\n3)Faturamento limitado à 4.8Mi.\n 4)Antes do lançamento da chamada ter registro na Junta Comercial há no mínimo 12 meses\n4) O pesquisador responsável deve demonstrar dominio sobre o tema à ser pesquisado"]
+  },
+  {
+    "tag":"equipe",
+    "patterns":["Qual deve ser o modelo de equipe?","Quantas pessoas podem colaborar com o projeto?","A equipe deve incluir quem?","Como deve ser composto o time para a pesquisa?"],
+    "responses":["a)Pesquisadores principais\nb)Pesquisadores Associados\nc)Bolsistas\nd)Estudantes sem Bolsa\ne)Pessoal de apoio Técnico\nf)Pessoal do apoio administrativo\ng)Responsável pela empresa\nh)Coordenador da emrpesa\ni)Consultores\nj)Pesquisador Responsável na Instituição Parceira\nk)Colaboradores (participação de terceiros no projeto)"]
+  },
+  {
+    "tag":"Etapas de análise",
+    "patterns":["Quais são as etapas de análise","quantas etapas de análise tem?","Qual o processo de verificação do documento?"],
+    "responses":["1)Enquadramento e indicação da assesoria para as propostas enquadradas pela Coordenção da Área\n2)Análise e emissão de parecer pela assesoria\n3)Análise e emissão de recomendação pela Coordenação da Área\n4)Análise e emissão de recomendação pela Coordenação Adjunta\n5)Decisão pelo Diretor Científico e análise pelo CTA e Conselho Superior"]
+  },
+  {
+    "tag":"Critérios de Análise",
+    "patterns":["Quais são os critérios para análise do projeto?","Quais as forma de avaliar o projeto utilizadas?"],
+    "responses":["A fase 1 nada mais é que uma fase para reconhecer o projeto, não espera-se que seja algo de muita descrição já que pode ser de objetivo do projeto alcançar o resultado.\nA Fase 2 permite que seja desenolvivda a proposta de pesquisa em si, à uma elaboração mais robusta da proposta da pesquisa. Nas duas fases são esperados planos de pesquisa claros, esperamos que na descrição do projeto haja:\n 1) Objetivos bem definidos e apresentados\n2) Um plano com uma boa base, um cronograma apropriado para a pesquisa que permita sucesso, resultando num produto/processo/sistema/ inovador para a área\n3)Metodologia da proposta adequada para atingir os objetivos da pesquisa\n4)Formular de forma direta os desafios da pesquisa \n5)Projeto fundamentado em uma estrutura intelectual sendo ela pertencente à empresa ou sob o Pesquisador Responsável que poderá contribuir para o sucesso do projeto\n6) O proejeto se adequa ao prazo, condizindo com o cronograma proposto\n7)Não podem haver influências de terceiros sob os resultados da pesquisa sejam elas patentes, outras emrpesas, intituições ou pesquisadores\n8)Modelo de Negócio coerente\n9)Comprovar a capacidade em empreendendorismo tecnológico a não utilização deste deve ser justificada por experiência prévia adequada\n10)Evidenicar que a tecnologia desenolvida na proposta foi desenvolvida na Instituição de Pesquisa Parceira"]
+  },
+  {
+    "tag":"Critéios para valor do Orçamento",
+    "patterns":["O recurso recebido é baseado no que?","Qual o valor da bolsa","O valor da bolsa se baseia em que critérios para definir seu valor?"],
+    "responses":["1) O recurso solicitado se justifica de acordo com os objetivos e a metodologia do projeto\n2)Ao verificar a dimensão da empresa e projeto podemos analisar as reais necessidades do projeto e enviar um valor baseado nestes dados\n3)A pesquisa tem finalidade principal de pesquisa e não de produção"]
+  },
+  { "tag": "restrições",
+    "patterns":["Restriçoes","Quais são as restrições?","Há restrições","Tem restrições","Impedimentos","Há impedimentos?",
+     "O que pode me impedir?","Algo me impede?","Impedido","O que me impede?","vou embora","ate mais",""],
+    "responses": ["É vedado ao pesquisador:\nEfetuar despesas fora do período de vigência do Termo de Outorga e Aceitação de Auxílio\nRealizar modificações no projeto aprovado (plano inicial, datas etc.) sem prévio consentimento da FAPESP ",
+    "Utilizar recursos da FAPESP para fins outros que não os aprovados, exceto nas condições previstas ",
+    "Fazer aplicações financeiras com os recursos do projeto\nContratar ou destinar verbas concedidas para execução do projeto, a que título for, a pessoas"]
+  },
+  { "tag": "etapas_pipe",
+    "patterns":["Quantas etapas tem um pipe","Etapas do pipe","Fases do projeto pipe","Etapas do projeto pipe"],
+    "responses": ["O projeto pipe possui 3 etapas\n Para mais informações acesse https://fapesp.br/pipe/",
+    "O pipe acontece em 3 etapas\n Para mais informações acesse https://fapesp.br/pipe/"]
+  },
+  { "tag": "pipe_invest",
+  "patterns":["O que é o pipe invest?","Pipe invest"],
+  "responses": ["O PIPE Invest tem como objetivo oferecer fundos suplementares para projetos PIPE Fases 1 e 2 que tenham atingido ou superado seus objetivos em suas respectivas fases, para acelerar o processo de comercialização da inovação desenvolvida por meio do projeto."]
+  },
+  { "tag": "solicitacao_pipe_invest",
+    "patterns":["Como faço uma solicitação do Pipe invest?","Solicitar o pipe invest","Como solicito o pipe invest?"],
+    "responses": ["A solicitação para o pipe invest é feita em duas etapas \n1)Documentação emitida pelo investidor privado detalhando o investimento e sua motivação. \n2)Contrato de investimento, caso disponível. Esse contrato será solicitado para a contratação. \nApós análise da solicitação (SM-Outra) pela FAPESP, caso a documentação apresentada satisfaça as condições para o PIPE Invest e a Solicitação de Mudança do tipo “Outra” seja aprovada, o Pesquisador Responsável será autorizado a submeter no SAGe a proposta científica completa do PIPE Invest, em até 45 dias, para análise de mérito.","Olá"]
+  },
+  { "tag": "saudacaoempresa_sede",
+    "patterns":["Quais são as restriçoes da empresa sede?","Quais são as condições da empresa sede?","Condiçoes da empresa sede","Salve"],
+    "responses": ["A empresa deve atender as seguintes obrigações e restriçoes: Garantir ao pesquisador e ao grupo de pesquisadores participantes do projeto todo o apoio necessário para sua realização\n Reembolsar a FAPESP todo o investimento realizado se a realização do projeto vier a ser obstada ou inviabilizada por não cumprimento do item anterior e sem prévia anuência da FAPESP.\nTomar ciência de que o descumprimento do apoio descrito no Termo de Outorga e Aceitação de Auxílios poderá prejudicar o andamento de futuras solicitações apresentadas à FAPESP por pesquisadores da empresa."]
+  },
+  { "tag": "duração_fase_1",
+    "patterns":["Duração da fase 1","Quanto tempo dura a fase 1?","Quantos meses dura a fase 1?"],
+    "responses": ["A Fase 1, com duração prevista de até 9 (nove) meses, destina-se à realização de pesquisas sobre a viabilidade técnico-científica da pesquisa para inovação proposta."]
+  },
+  { "tag": "duração_fase_2",
+    "patterns":["Duração da fase 2","Quanto tempo dura a fase 2?","Quantos meses dura a fase 2?"],
+    "responses": ["A Fase 2, com duração prevista de até 24 (vinte e quatro) meses, destina-se ao desenvolvimento da proposta de pesquisa para inovação propriamente dita, podendo incluir atividades preliminares para a inserção dos resultados da pesquisa no mercado (atividades de apoio à comercialização)."]
+  },
+  { "tag": "apresentação_de_propostas",
+    "patterns":["O que deve conter na minha apresentação da proposta?","Apresentação de proposta","O que precisa na minha apresentação de proposta?",
+    "Itens na minha apresentação de proposta", "O que apresentar na minha proposta"],
+    "responses": ["A submissão de propostas ao Programa FAPESP(PIPE) deve ser feita exclusivamente por meio do Sistema de Apoio à Gestão (SAGe)",
+    "A proposta deve conter: Descrição da equipe, documentos necessarios para as fases 1 e 2, proposta inicial do pipe invest, Termo de Outorga",
+  "Contratos de prestação de serviços, Convênios para pesquisa em colaboração, Contratos de Licenciamento."]
+  },
+  { "tag": "doutorado",
+    "patterns":["Titulo de doutor","Preciso ter titulo de doutor?","Preciso ser doutor para ter financiamento","Preciso ter doutorado?", "Doutorado"],
+    "responses": ["Embora tal titulo academico seja bem vindo para o projeto pipe, ele não é obrigatorio"]
+  }
+    ]
+  }
