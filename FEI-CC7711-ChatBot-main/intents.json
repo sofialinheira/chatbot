@@ -71,7 +71,7 @@
     "responses":["1) O recurso solicitado se justifica de acordo com os objetivos e a metodologia do projeto\n2)Ao verificar a dimensão da empresa e projeto podemos analisar as reais necessidades do projeto e enviar um valor baseado nestes dados\n3)A pesquisa tem finalidade principal de pesquisa e não de produção"]
   },
   { "tag": "restrições",
-    "patterns":["Restriçoes","Quais são as restrições?","Há restrições","Tem restrições","Impedimentos","Há impedimentos?",
+    "patterns":["Restriçoes do financiamento","Quais são as restrições?","Há restrições","Tem restrições","Impedimentos","Há impedimentos?",
      "O que pode me impedir?","Algo me impede?","Impedido","O que me impede?","vou embora","ate mais",""],
     "responses": ["É vedado ao pesquisador:\nEfetuar despesas fora do período de vigência do Termo de Outorga e Aceitação de Auxílio\nRealizar modificações no projeto aprovado (plano inicial, datas etc.) sem prévio consentimento da FAPESP ",
     "Utilizar recursos da FAPESP para fins outros que não os aprovados, exceto nas condições previstas ",
